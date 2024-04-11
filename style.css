@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('GALLERY/fhhhh.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-repeat:repeat; 
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #079294;
+    padding: 25px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 1px 1px #054846;
+}
+
+.todo-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-left: 2px;
+    justify-content: center;
+    color: rgb(235, 200, 198);
+}
+
+.todo-header img {
+    width: 80px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.todo-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(235, 200, 198);
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.todo-body input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+.todo-body img {
+    cursor: pointer;
+    height: 55px;
+    width: 55px;
+    padding: 15px;
+    background: rgb(235, 200, 198);
+    border-radius: 40px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(235, 200, 198);
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.todo-controls {
+    padding: 5px 8px; /* Adjust the padding around the text */
+    background: rgb(235, 200, 198);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center; /* Center the text horizontally */
+}
+
+
+/*DOCUMENTATION
+
+This CSS code is for styling a TODO app interface. Here's a breakdown of the styles:
+
+The * selector is used to reset margin, padding, and set the default font family for all elements.
+The body styles set the background image to cover the entire background, repeat it, and center the container vertically and horizontally.
+The .container styles set the background color, padding, width, border radius, and box shadow for the main container.
+The .todo-header styles set the styles for the header, including color and alignment.
+The .todo-body styles set the styles for the input and image button in the body section.
+The .todo-controls styles set the styles for the edit and delete buttons, including padding, background color, border, border radius, cursor, transition, and text alignment.
+ the styles create a visually appealing and functional TODO app interface
